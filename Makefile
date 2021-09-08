@@ -12,7 +12,7 @@ $(exec): $(objects)
 
 install:
 	make
-	sudo cp ./duna.out /usr/local/bin/can
+	sudo cp ./can.out /usr/local/bin/can
 
 clean:
 	-rm *.out
